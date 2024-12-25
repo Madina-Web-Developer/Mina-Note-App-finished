@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap');
+
+
+
+
+.nav{
+
+    @apply lg:py-[5px]  p-1 border-b-[2px] border-b-slate-400 dark:border-b-[2px] dark:border-b-slate-500 dark:bg-[#104b6d] lg:px-[20px] px-2 py-2 w-full
+    
+    
+       bg-[#9af7ff]
+       dark:shadow-[0px_4px_12px_0px_#ffffff];
+
+    box-shadow: rgba(37, 37, 37, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+
+.logo{
+
+    @apply flex  mt-1 justify-center items-center
+}
+
+.logo h1{
+
+    @apply font-SaboAlfa  font-medium lg:font-semibold md:font-bold  text-[15px]   lg:text-[43px] text-[hsl(8,100%,71%)] tracking-wider 
+
+
+}
+
+.user_info{
+
+    @apply flex gap-1  lg:gap-2 justify-center items-center
+}
+
+.name h2{
+
+    @apply text-[6px] lg:text-[15px]  font-bold font-serif text-gray-700 lg:mr-5
+     mt-1 dark:text-gray-200
+}
+
+.logo_img {
+
+    @apply lg:text-[20px] md:text-[14px] text-[8px] lg:mt-2  dark:text-white text-gray-700
+}
+
+
+.out{
+
+    @apply text-red-500 lg:text-[25px] text-[10px]
+}
+
+.user_profile_pic img{
+
+    @apply w-[16px] h-[15px] lg:w-[38px] lg:h-[38px] rounded-full border-solid 
+}
+
+.madina_nav{
+
+    @apply flex justify-between items-center
+}
+
+
+
+.mina_search{
+
+    @apply  text-[10px]  lg:text-[25px] absolute lg:top-[20%] flex lg:left-[4%] top-[25%]  left-[4%] z-10 text-black
+}
+
+.logo_search{
+
+    @apply flex  lg:gap-6 gap-1  items-center 
+}
+
+.input_search{
+
+    @apply   lg:w-[450px] w-[100px] lg:py-2  lg:px-4 border-solid lg:border-[1.8px]  border-[1px] border-[#FEA597] lg:pl-16 pl-4  rounded-sm   lg:rounded-md  outline-none
+
+    lg:text-[18px] text-[8px] font-semibold font-Poppins text-gray-600 dark:text-white p-[2px] m-0 hover:shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]
+    
+    hover:border-[hsl(0,0%,44%)] bg-slate-100 dark:bg-slate-600;
+    
+    
+    box-shadow: #4e4e4e29 0px 3px 6px, rgba(82, 82, 82, 0.23) 0px 3px 6px;
+
+}
+
+
+.search{
+
+    @apply relative justify-center items-center
+}
+
+.logout h3{
+
+    @apply text-[3px]  lg:text-[8px] text-red-600 font-bold
+}
+
+.note{
+
+    @apply text-black dark:text-white lg:text-[42px] text-[16px]
+}

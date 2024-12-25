@@ -1,0 +1,235 @@
+/* General container styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to left, rgb(253, 234, 249), #e8ffff,rgb(248, 231, 245), #e8ffff);
+   
+   
+  }
+
+  .top img{
+
+    @apply w-[130px] h-[180px] absolute hidden  lg:block lg:top-[50%]    lg:right-[25%]  xl:right-[35.5%]   xl:top-[52%]    z-0
+  }
+
+  
+
+  
+  
+  /* Login box */
+  .login-box_l {
+
+    @apply md:w-[350px] w-[290px];
+
+    border-radius: 5px;
+    margin: 2% auto;
+    background-image: linear-gradient(-225deg, #dbffff 50%, #ffe7fb 50%);
+    box-shadow: 0px 2px 15px 1px hwb(0 61% 39%);
+    border: solid 2px hwb(0 76% 24%);
+    position: relative;
+
+  }
+
+  .login-box_l{
+
+    @apply  z-10
+  }
+
+  .login-box_l{
+
+    @apply p-[5.5%] md:p-[4%] lg:py-[2.5%] lg:px-[2%]
+  }
+
+  
+  
+  
+  /* Title and subtitle */
+  .login-title {
+
+    @apply text-[26px] lg:text-[28px] font-bold font-serif;
+    
+    text-align: center;
+    margin-bottom: 0.5rem;
+   
+    color: rgb(109, 109, 109);
+  }
+  
+  .login-subtitle {
+
+    @apply text-[12px] lg:text-[14px] font-semibold;
+
+    font-size: 12px;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input fields */
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-icon {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    color: hsl(0, 0%, 60%);
+  }
+  
+  .password-icon {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    color: hwb(0 44% 56%);
+    cursor: pointer;
+    
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 0.5rem 0.75rem 0.5rem 2.5rem;
+    border-radius: 6px;
+    border: 1px solid rgb(213, 213, 213);
+    outline: none;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 3%;
+    color: hwb(0 32% 68%);
+    font-weight: 500;
+    
+    
+
+    @apply lg:text-[12px] text-[10px] leading-4  font-Poppins;
+  }
+  
+  .login-input:focus {
+    border-color: hsl(0, 0%, 69%);
+    box-shadow: 0 0 0 4px rgba(192, 192, 192, 0.302);
+  }
+  
+  /* Buttons */
+
+  
+  /* From Uiverse.io by BHARGAVPATEL1244 */ 
+.login-button {
+
+  
+  
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 2px;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #89e3ba;
+    color: rgb(253, 253, 253);
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   }
+   
+.login-button span {
+
+  @apply lg:text-[19px] text-[18px] font-bold;
+
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+   }
+   
+.login-button:hover span {
+    color: black;
+   }
+   
+.login-button::before,
+.login-button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+   }
+   
+.login-button::before {
+    content: "";
+    background:hwb(0 46% 54%);
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+   }
+   
+.login-button:hover::before {
+    transform: translate3d(100%, 0, 0);
+   }
+   
+  
+  
+  .signup-button {
+
+    @apply lg:text-[16px];
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #89e3ba;
+    color: rgb(0, 0, 0);
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+  }
+  
+  .signup-button {
+    @apply active:scale-[1.1]
+  }
+  
+  
+  
+  .forgot-password {
+    font-size: 13px;
+    color: #ff0000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .forgot-password:hover {
+    color: #000000;
+  }
+
+
+  .sn{
+    @apply flex justify-between items-center mt-5
+  }
+
+  
+
+  h4{
+    @apply  text-[12px]  lg:text-[14px] text-gray-500 font-semibold
+  }
+
+  h5{
+    @apply text-[10px] lg:text-[13px] text-[#03bf03] font-semibold text-center mt-2
+  }
+  
+
+  
+  h6{
+
+    @apply text-[#ff0000]   lg:text-[11px] text-[9px] 
+  }
